@@ -32,7 +32,7 @@ const SuperQuality = () => {
           alt="product detail"
           width={570}
           height={522}
-          className="object-contain"
+          className="object-contain transition duration-300 ease-in-out hover:scale-110 cursor-pointer"
         />
       </div>
     </section>

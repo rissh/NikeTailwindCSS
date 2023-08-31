@@ -5,7 +5,7 @@ import { Button } from "../components";
 const SpecialOffer = () => {
   return (
     <section className="flex justify-between items-center max-xl:flex-col-reverse gap-10 max-container">
-      <div className="flex-1">
+      <div className="flex-1 transition duration-300 ease-in-out hover:scale-110">
         <img
           src={offer}
           alt="Shoe Promotion"
